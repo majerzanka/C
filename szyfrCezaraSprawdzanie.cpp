@@ -57,13 +57,10 @@ int main() {
     for(size_t i = 0; i < 2;i++)
         for(size_t k = 0; k < 26 ; k++)
         {
-            if(i)
-            {
                 nowy_napis = szyfr(k,nieszyfr_str[i]);
                 if(nowy_napis == szyfr_str[i])
                     cout << "Napis prawidlowy ma indeks" << i << endl;
 
-            }
 
         }
 
