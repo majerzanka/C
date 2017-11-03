@@ -39,7 +39,7 @@ int main() {
 
     int i = 0;
     while(1)
-        if(tekst[i] % 2)
+        if(!tekst[i] % 2)
             nieszyfr[i_nieszyfr++] += tekst;
         else
             szyfr[i_szyfr++] += tekst;
