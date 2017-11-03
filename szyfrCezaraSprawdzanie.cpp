@@ -59,7 +59,12 @@ int main() {
         {
                 nowy_napis = szyfr(k,nieszyfr_str[i]);
                 if(nowy_napis == szyfr_str[i])
+                {
                     cout << "Napis prawidlowy ma indeks" << i << endl;
+                    break;
+
+                }
+
 
 
         }
